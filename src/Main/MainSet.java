@@ -24,8 +24,7 @@ public class MainSet {
 	
 	
 		for(Movil i: listaMovil){
-			System.out.println("["+i.getMarca()+", "+i.getModelo()+", "
-					+i.getColor()+", "+i.getPrecio()+"€, "+i.getProcesador() +"]");
+			System.out.println(i);
 			
 		}
 

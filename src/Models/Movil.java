@@ -62,8 +62,11 @@ public class Movil {
 
 	@Override
 	public String toString() {
-		return "Movil [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", precio=" + precio + " �]";
+		return "Movil [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", precio=" + precio
+				+ ", procesador=" + procesador + "]";
 	}
+
+	
 	
 	
 	
