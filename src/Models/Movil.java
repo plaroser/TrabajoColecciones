@@ -52,6 +52,14 @@ public class Movil {
 		this.precio = precio;
 	}
 
+	public String getProcesador() {
+		return procesador;
+	}
+
+	public void setProcesador(String procesador) {
+		this.procesador = procesador;
+	}
+
 	@Override
 	public String toString() {
 		return "Movil [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", precio=" + precio + " �]";
