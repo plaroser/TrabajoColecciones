@@ -7,13 +7,16 @@ public class Movil {
 	private String modelo;
 	private String color;
 	private int precio;
+	private String procesador;
+	
 	
 	//Constructor
-	public Movil(String marca, String modelo, String color, int precio) {
+	public Movil(String marca, String modelo, String color, int precio, String procesador) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.color = color;
 		this.precio = precio;
+		this.procesador = procesador;
 	}
 
 	//Metodos
@@ -51,7 +54,7 @@ public class Movil {
 
 	@Override
 	public String toString() {
-		return "Movil [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", precio=" + precio + " €]";
+		return "Movil [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", precio=" + precio + " ï¿½]";
 	}
 	
 	
