@@ -1,17 +1,17 @@
 package Models;
 
 public class Movil {
-	
-	//atributos
+
+	// atributos
 	private String marca;
 	private String modelo;
 	private String color;
 	private int precio;
 	private String procesador;
-	
-	
-	//Constructor
-	public Movil(String marca, String modelo, String color, int precio, String procesador) {
+
+	// Constructor
+	public Movil(String marca, String modelo, String color, int precio,
+			String procesador) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.color = color;
@@ -19,7 +19,7 @@ public class Movil {
 		this.procesador = procesador;
 	}
 
-	//Metodos
+	// Metodos
 	public String getMarca() {
 		return marca;
 	}
@@ -62,12 +62,8 @@ public class Movil {
 
 	@Override
 	public String toString() {
-		return "Movil [ Marca= " + marca + ", Modelo= " + modelo + ", Color= " + color + ",Precio= " + precio
-				+ ", Procesador= " + procesador + " ]";
+		return marca + " - " + modelo + " Procesador - " + procesador + " - "
+				+ color + " " + precio + " Eur";
 	}
 
-	
-	
-	
-	
 }
