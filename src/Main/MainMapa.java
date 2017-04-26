@@ -69,7 +69,7 @@ public class MainMapa {
 		System.out.println(Weakhashmap.remove(3));//borra el movil con esa clave
 		System.out.println(Weakhashmap.get(4));//devuelve el movil con esa clave
 		System.out.println(Weakhashmap.containsKey(2));//devuelve true si el mapa contiene esa clave
-		System.out.println(Weakhashmap.values());//devuelve el mapa como una lista
+		System.out.println(Weakhashmap.keySet());//devuelve el mapa como una lista
 		System.out.println(Weakhashmap.size());//devuelve el tamao del mapa
 		//treemap.clear();
 
